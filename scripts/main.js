@@ -28,7 +28,6 @@ map.on('style.load', function() {
         })
 	
         .then(function(response) {
-            console.log(response);
             onAPISucces(response);
         })
 	
